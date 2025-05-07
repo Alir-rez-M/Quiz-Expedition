@@ -34,7 +34,6 @@ public class AnswerButton : MonoBehaviour
         if (isCorrect)
         {
             OnAnswer?.Invoke(this, EventArgs.Empty);
-            Debug.Log(OnAnswer);
 
             
         }
